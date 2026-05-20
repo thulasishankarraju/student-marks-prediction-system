@@ -19,8 +19,6 @@ def home():
     return render_template("multi.html")
 
 
-# ==========================================
-
 @app.route('/predict', methods=['POST'])
 def predict():
 
